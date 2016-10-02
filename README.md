@@ -1,0 +1,1 @@
+This is the repo for my personal website. I'm building it from scratch for my Web Design 1 class.
