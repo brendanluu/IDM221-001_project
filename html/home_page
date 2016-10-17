@@ -3,13 +3,21 @@
 <head>
 	<title>Brendan Luu - Home</title>
 </head>
-	<h1>hi, i'm brendan</h1>
+	
 <body>
+<ul>
+<li><a href="Resume.html">Resume</a></li>
+<li><a href=""></li>
+	<header>
 
-<h3>a bit about myself</h3>
+		<h1>Hi, I'm Brendan</h1>
+
+	</header>
+
+<h3>A bit about myself</h3>
  <ul>
  	<li>
-
+ 
 	My name is Brendan Luu and I'm an Interactive Digital Media student at Drexel University. As a sophomore getting into web development, I am applying the design skills I learned in my foundation year to create compelling web experiences. I also enjoy creating 3D animations and traditional art. Living a balanced life is important to me so I eat well, stay active, and maintain my social life along side my school work and side projects.
 
 	</li>
