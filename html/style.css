@@ -1,15 +1,8 @@
-
-
 body {
     background-color: white;
 }
 
 header {
-	background-color: black;
-	color: white;
-}
-
-footer {
 	background-color: black;
 	color: white;
 }
@@ -25,8 +18,4 @@ h2 {
 
 h3{
 	color: #C4C4C4;
-}
-
-#disText {
-	color: #808080;
 }
