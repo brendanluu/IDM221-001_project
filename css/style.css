@@ -1,53 +1,59 @@
-@font-face {
-  font-family: 'DIN';
-  src: url('/webfonts/DIN.eot?#iefix') format('embedded-opentype'),  url('DIN.woff') format('woff'), url('DIN.ttf')  format('truetype'), url('DIN.svg#DIN') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
-
-@font-face {
-  font-family: 'DINBold';
-  src: url('DINBold.eot?#iefix') format('embedded-opentype'),  url('DINBold.woff') format('woff'), url('DINBold.ttf')  format('truetype'), url('DINBold.svg#DINBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 
 /*.ff-reg {
-	font-family: 'DIN' , 'Helvetica', 'Arial' , sans-serif;
+	font-family: 'Helvetica', 'Arial' , sans-serif;
 	font-weight: normal;
 }*/
 
 body {
     background-color: white;
+    max-width: 100%;
+    clear: both;
+    overflow: auto;
+
 }
 
 header {
 	background-color: black;
 	color: white;
+	clear: both;
+    overflow: auto;
+}
+
+video {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	margin-top: 50px;
 }
 
 footer {
 	background-color: black;
 	color: white;
-	font-family: 'DINBold', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
 
 }
 
 h1 {
     color: black;
-    font-family: 'DINBold', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 24px !important;
 
 }
 
 h2 {
 	color: white;
-	font-family: 'DINBold', 'Helvetica', 'Arial', sans-serif;
-	font-size: 16px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
@@ -57,29 +63,44 @@ h3{
 }
 
 p {
-	font-family: 'DIN' , 'Helvetica', 'Arial' , sans-serif;
+	font-family: 'Helvetica', 'Arial' , sans-serif;
 	font-weight: normal;
 	color: #808080;
 }
 
-.nav {
+nav {
 	color: white; 
-	font-family: 'DINBold', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 12px;
 	list-style-type: none;
-    margin: 0;
+	float: right;
     padding: 0;
     overflow: hidden;
+    display: inline-block;
+    margin-right: 4px;
 }
 
+nav li {
+	float:left;
+	padding: 17px 16px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
 ul {
-	font-family: 'DIN' , 'Helvetica', 'Arial' , sans-serif;
+	font-family: 'Helvetica', 'Arial' , sans-serif;
 	font-weight: normal;
 	font-size: 14px;
+	margin: 0px;
 }
 
 a {
 	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px solid white;
 }
 
 a:hover {
@@ -87,9 +108,21 @@ a:hover {
 }
 
 .name {
-	font-family: 'DINBold', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 18px;
 	color: white;
+	float: left;
+	font-weight: bold;
+	margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 	
 
 }
+
+.navbar {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+}
+
