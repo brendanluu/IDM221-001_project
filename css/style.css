@@ -27,6 +27,7 @@ footer {
 	color: white;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
+	
 
 }
 
@@ -138,5 +139,12 @@ a:hover {
 
 .bodyimg {
 	max-width: 680px;
+}
+
+.bodylink {
+	font-family: 'Helvetica', 'Arial' , sans-serif;
+	font-weight: normal;
+	color: #4A90E2;
+	line-height: 2.0;
 }
 
