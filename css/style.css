@@ -27,7 +27,8 @@ footer {
 	color: white;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
-	
+	text-align: center;
+ !
 
 }
 
@@ -46,6 +47,8 @@ h2 {
 	font-weight: normal;
 	margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -60,6 +63,7 @@ p {
 	font-weight: normal;
 	color: #808080;
 	line-height: 2.0;
+	margin-bottom: 0px;
 }
 
 nav {
@@ -94,7 +98,6 @@ a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-	border-bottom: 2px solid white;
 }
 
 a:hover {
@@ -107,7 +110,7 @@ a:hover {
 	color: white;
 	float: left;
 	font-weight: bold;
-	margin-left: 20px;
+	margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 0;
@@ -120,6 +123,7 @@ a:hover {
 	position: fixed;
 	background-color: black;
 	width: 100%;
+	z-index: 2;
 }
 
 .post {
@@ -148,3 +152,38 @@ a:hover {
 	line-height: 2.0;
 }
 
+#face {
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+
+#navclicked{
+	border-bottom: 2px solid white;
+}
+
+#footertext {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+/*.container { 
+
+	position:fixed; 
+
+}
+.container video {
+    position:absolute;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+  
+    background: rgba(76, 175, 80, 0.3);
+    max-width: 100%;
+    min-height: 100%;
+}*/
