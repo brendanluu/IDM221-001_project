@@ -46,10 +46,13 @@ Thumbs.db
 *.ogv
 *.webm
 
+
 # Custom #
 ######################
 *.jpg
 *.png
+*.gif
+*.pdf
 graphics
 node_modules
 presentations/images
